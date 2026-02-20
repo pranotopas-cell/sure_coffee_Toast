@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sure Coffee & Toast Menu</title>
+    <style>
+        :root {
+            --primary: #2c3e50;
+            --accent: #d35400;
+            --bg: #fdfcf0;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg);
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        header {
+            text-align: center;
+            border-bottom: 2px solid var(--primary);
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+        }
+        h1 { margin: 0; color: var(--primary); font-size: 24px; }
+        p.loc { margin: 5px 0; font-style: italic; color: #666; }
+        
+        .section-title {
+            background: var(--primary);
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            margin-top: 25px;
+            font-size: 18px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .size-label { font-size: 12px; font-weight: normal; align-self: center; }
+
+        .menu-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-bottom: 1px dashed #ddd;
+        }
+        .item-name { font-weight: 500; flex: 2; }
+        .price { flex: 1; text-align: right; font-weight: bold; color: var(--accent); }
+
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 12px;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>Sure Coffee & Toast</h1>
+        <p class="loc">Pangkalan Bun</p>
+    </header>
+
+    <div class="section-title">
+        <span>COFFEE</span>
+        <span class="size-label">M / L</span>
+    </div>
+    <div class="menu-item"><span class="item-name">Coffee Americano / Item</span><span class="price">15K</span></div>
+    <div class="menu-item"><span class="item-name">Coffee Aren</span><span class="price">15K</span></div>
+    <div class="menu-item"><span class="item-name">Coffee Susu Aren</span><span class="price">20K</span></div>
+    <div class="menu-item"><span class="item-name">Coffee Susu</span><span class="price">20K</span></div>
+    <div class="menu-item"><span class="item-name">Coffee Cheese</span><span class="price">23K</span></div>
+    <div class="menu-item"><span class="item-name">Coffee Oreo w/ Topping</span><span class="price">22K</span></div>
+    <div class="menu-item"><span class="item-name">Moccachino</span><span class="price">20K / 23K</span></div>
+    <div class="menu-item"><span class="item-name">Caramel Macchiato</span><span class="price">22K / 25K</span></div>
+    <div class="menu-item"><span class="item-name">Butterscotch Sea Salt</span><span class="price">23K / 28K</span></div>
+
+    <div class="section-title">
+        <span>NON COFFEE</span>
+        <span class="size-label">M / L</span>
+    </div>
+    <div class="menu-item"><span class="item-name">Ice Chocolate</span><span class="price">20K / 25K</span></div>
+    <div class="menu-item"><span class="item-name">Matcha Latte</span><span class="price">25K / 30K</span></div>
+    <div class="menu-item"><span class="item-name">Taro Latte / Coco</span><span class="price">20K / 25K</span></div>
+    <div class="menu-item"><span class="item-name">Strawberry Latte</span><span class="price">20K / 25K</span></div>
+
+    <div class="section-title">
+        <span>TOAST / ROTI</span>
+    </div>
+    <div class="menu-item"><span class="item-name">Toast Omelette & Cheese</span><span class="price">23K</span></div>
+    <div class="menu-item"><span class="item-name">Toast Spicy Beef</span><span class="price">27K</span></div>
+    <div class="menu-item"><span class="item-name">Toast Chicken Crispy</span><span class="price">25K</span></div>
+    <div class="menu-item"><span class="item-name">Toast Choco Milk</span><span class="price">18K</span></div>
+    <div class="menu-item"><span class="item-name">Roti Macan (Cranberry Cheese)</span><span class="price">15K</span></div>
+    <div class="menu-item"><span class="item-name">Croissant Nutella</span><span class="price">10K</span></div>
+
+    <div class="section-title">
+        <span>ICE TEA</span>
+        <span class="size-label">M / L</span>
+    </div>
+    <div class="menu-item"><span class="item-name">Ice Tea Original</span><span class="price">7K / 10K</span></div>
+    <div class="menu-item"><span class="item-name">Ice Tea Yakult</span><span class="price">10K / 13K</span></div>
+    <div class="menu-item"><span class="item-name">Thai Tea</span><span class="price">18K / 22K</span></div>
+
+    <footer>
+        <p>&copy; 2024 Sure Coffee & Toast. Prices may change.</p>
+    </footer>
+</div>
+
+</body>
+</html>
